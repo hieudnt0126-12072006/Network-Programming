@@ -1,7 +1,7 @@
 # sturdy-pancake
 Nhóm 7 
 MÃ DỰ ÁN: UDM_17
-1.Đề xuất Dự án: Lập trình game cờ Caro
+- 1.Đề xuất Dự án: Lập trình game cờ Caro
 - Bạn muốn làm gì: Nhóm chúng em muốn phát triển một ứng dụng game cờ caro nhiều người chơi trên desktop sử dụng kỹ thuật lập trình mạng. Ứng dụng cho phép nhiều người chơi kết nối qua mạng LAN/Internet và chơi caro thời gian thực bằng mô hình Client–Server và giao tiếp TCP Socket.
 + Tính năng nhóm muốn có:
 - Chơi nhiều người qua LAN/Internet. 
@@ -23,7 +23,7 @@ MÃ DỰ ÁN: UDM_17
 - Quản lý source code: Github
 - Quản lý dự án: Jira
 --> Mục tiêu cuối cùng: Nhóm mong muốn xây dựng được một game caro desktop nhiều người chơi hoàn chỉnh với khả năng giao tiếp thời gian thực ổn định, quản lý phòng chơi và gameplay tương tác thông qua kết nối mạng, không chạy trên trình duyệt web, đáp ứng tốt nhu cầu trao đổi dữ liệu nội bộ.
-2.Kế hoạch thực hiện (Mỗi 2 tuần)
+- 2.Kế hoạch thực hiện (Mỗi 2 tuần)
 + Giai đoạn 1 (Tuần 1 - Tuần 2): 
 - Nghiên cứu kiến trúc TCP Socket (ServerSocket và Socket trong Java).
 -	Thiết kế cấu trúc gói tin (Message Protocol) dạng String hoặc JSON để Client-Server hiểu nhau (ví dụ: MOVE;x;y, CHAT;content).
@@ -43,7 +43,7 @@ MÃ DỰ ÁN: UDM_17
 -	Xử lý các trường hợp mất kết nối đột ngột (đứt mạng, tắt app ngang xương). Xử thua người mất kết nối.
 -	Lưu lịch sử trận đấu vào SQL (tính năng nâng cao).
 -	Kiểm thử chéo giữa các máy qua mạng LAN, sửa lỗi (Bug).
-4.Thông tin thành viên
+- 4.Thông tin thành viên
 -	Họ và tên: Đào Nguyễn Thiện Hiếu
 -	(ID): 062206000126
 -	GitHub Account ID: hieudnt0126-12072006
