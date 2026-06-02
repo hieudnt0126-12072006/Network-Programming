@@ -1,7 +1,7 @@
 # sturdy-pancake
 Nhóm 7 
 MÃ DỰ ÁN: UDM_17
-- 1.Đề xuất Dự án: Lập trình game cờ Caro
+- 1.Đề xuất Dự án: Lập trình game cờ Caro.
 - Bạn muốn làm gì: Nhóm chúng em muốn phát triển một ứng dụng game cờ caro nhiều người chơi trên desktop sử dụng kỹ thuật lập trình mạng. Ứng dụng cho phép nhiều người chơi kết nối qua mạng LAN/Internet và chơi caro thời gian thực bằng mô hình Client–Server và giao tiếp TCP Socket.
 + Tính năng nhóm muốn có:
 - Chơi nhiều người qua LAN/Internet. 
