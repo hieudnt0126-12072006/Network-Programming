@@ -25,7 +25,7 @@ MÃ DỰ ÁN: UDM_17
 --> Mục tiêu cuối cùng: Nhóm mong muốn xây dựng được một game caro desktop nhiều người chơi hoàn chỉnh với khả năng giao tiếp thời gian thực ổn định, quản lý phòng chơi và gameplay tương tác thông qua kết nối mạng, không chạy trên trình duyệt web, đáp ứng tốt nhu cầu trao đổi dữ liệu nội bộ.
 - 2.Kế hoạch thực hiện (Mỗi 2 tuần)
 + Giai đoạn 1 (Tuần 1 - Tuần 2): 
-- Nghiên cứu kiến trúc TCP Socket (ServerSocket và Socket trong Java).
+- Nghiên cứu kiến trúc TCP Socket(ServerSocket và Socket trong Java).
 -	Thiết kế cấu trúc gói tin (Message Protocol) dạng String hoặc JSON để Client-Server hiểu nhau (ví dụ: MOVE;x;y, CHAT;content).
 -	Tạo Repository GitHub, setup quy tắc chia nhánh (Branching strategy như main, develop, feature/...).
 -	Phác thảo giao diện các màn hình (Đăng nhập, Phòng chờ, Bàn cờ) bằng công cụ UI kéo thả của Swing.
