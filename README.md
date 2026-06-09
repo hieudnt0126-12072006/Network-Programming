@@ -1,4 +1,4 @@
-# sturdy-pancake
+# Network Programming
 Nhóm 7 
 MÃ DỰ ÁN: UDM_17
 - 1.Đề xuất Dự án: Lập trình game cờ Caro.
