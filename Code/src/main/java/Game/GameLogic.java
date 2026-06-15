@@ -34,4 +34,20 @@ public class GameLogic {
         }
         return false;
     }
+    public static boolean checkDraw(Board board){
+        reuturn board !=null && board.isFull();
+    }
+
+    public static GameResult checkGameResult(Board board,int lsatRow,int lastCol,String symbol){
+        if (board == null || !board.isVaidPosition(lastRow, lastCol) || !Board.isValidSymbol(symbol) || !symbol.equals(board.getCell(lastRow, lastCol))){
+        return GameResult.INVALID_MOVE;
+        }
+        if (checkWin(board, lastRow, lastCol, symbol)){
+            return GameResult.WIN;
+        }
+        if (checkDraw(board)) {
+            return GameResult.DRAW;
+        }
+        return GameResult.CONTINUE;
+    }
 }
