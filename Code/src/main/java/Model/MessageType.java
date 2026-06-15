@@ -9,5 +9,12 @@ public enum MessageType {
     MOVE,           // Đồng bộ tọa độ nước đi (X, Y)
     CHAT,           // Gửi tin nhắn chat
     LEFT_ROOM,      // Rời phòng đấu về lại sảnh
-    QUIT            // Thoát hoàn toàn ứng dụng
+    QUIT,           // Thoát hoàn toàn ứng dụng
+    DRAW,
+    // ERROR,
+    // ADD_FRIEND,
+    // REMOVE_FRIEND,
+    // FRIEND_LIST
+    
+    
 }
