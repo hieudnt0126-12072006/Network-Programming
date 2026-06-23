@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="85e547c4-420d-4af3-9ca0-2558b9a0c9d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/ClientConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/ClientReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/ClientSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Client/ServerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/MatchDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/RoomDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Database/DatabaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Database/DatabaseInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Database/StatisticDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Rule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/TimerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/TurnManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/WinChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/GameState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/RoomStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/ClientManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/GameManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/LobbyManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/MatchManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/RoomManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Server/ServerThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ui/ChatPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ui/CreateRoomDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ui/HistoryFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ui/RegisterFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ui/RoomPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ui/StatisticFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/protocol/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/protocol/PacketBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/protocol/PacketParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/protocol/ResponseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ChatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/GameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/LobbyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/MatchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/RoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/Validator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Chau-Huy&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hieudnt0126-12072006/sturdy-pancake.git&quot;,
+    &quot;accountId&quot;: &quot;1021d442-54b1-4283-afc7-7d7ddd896f7f&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0010180329695715" />
+      <entry key="MS500" value="1.2522817987439592" />
+      <entry key="S2" value="1.8265493580470389" />
+      <entry key="S5" value="2.2965888944727704" />
+      <entry key="S10" value="2.5855820763414634" />
+      <entry key="S30" value="2.844493440227224" />
+      <entry key="S60" value="2.919817205208222" />
+      <entry key="M2" value="2.959279889356244" />
+      <entry key="M5" value="2.9835582456802388" />
+      <entry key="M10" value="2.9917532658201447" />
+      <entry key="M15" value="2.994496413393039" />
+      <entry key="M30" value="2.9972453203191503" />
+      <entry key="H1" value="2.9986219377263983" />
+      <entry key="H2" value="2.999310788149942" />
+      <entry key="H4" value="2.99965534888353" />
+      <entry key="D1" value="2.9999425518695513" />
+      <entry key="W1" value="2.9999917929704676" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.0010180329695714126" />
+      <entry key="MS500" value="0.2525566736922922" />
+      <entry key="S2" value="0.9499859404056332" />
+      <entry key="S5" value="1.727944939336601" />
+      <entry key="S10" value="2.2419112298723736" />
+      <entry key="S30" value="2.713402478527407" />
+      <entry key="S60" value="2.8519522871813856" />
+      <entry key="M2" value="2.9247467007386936" />
+      <entry key="M5" value="2.9695980364571226" />
+      <entry key="M10" value="2.9847484386194845" />
+      <entry key="M15" value="2.9898210172431527" />
+      <entry key="M30" value="2.994904862196217" />
+      <entry key="H1" value="2.9974510178317173" />
+      <entry key="H2" value="2.9987251553915377" />
+      <entry key="H4" value="2.99936248928871" />
+      <entry key="D1" value="2.9998937359338216" />
+      <entry key="W1" value="2.99998481911833" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3ErsTXkW6deKh8jlnbljXaVGuG6" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CaroClient.executor": "Run",
+    "Application.CaroServer.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Lap_trinh_mang/caro_game",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/lập trình mạng/caro_game/src/main/java/vn/edu/uth/Main.java",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\lập trình mạng\caro_game\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CaroClient">
+    <configuration name="CaroClient" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="Client.CaroClient" />
+      <module name="caro-game" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaroServer" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="Server.CaroServer" />
+      <module name="caro-game" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CaroServer" />
+      <item itemvalue="Application.CaroClient" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85e547c4-420d-4af3-9ca0-2558b9a0c9d6" name="Changes" comment="" />
+      <created>1780948032862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780948032862</updated>
+      <workItem from="1780948034489" duration="2174000" />
+      <workItem from="1780960770244" duration="2340000" />
+      <workItem from="1780963172579" duration="2170000" />
+      <workItem from="1780971566180" duration="11982000" />
+      <workItem from="1781155081410" duration="686000" />
+      <workItem from="1781486833045" duration="729000" />
+      <workItem from="1781505180365" duration="217000" />
+      <workItem from="1782192732512" duration="732000" />
+      <workItem from="1782193494194" duration="1364000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Server/CaroServer.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Ui/LobbyFrame.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
