@@ -6,8 +6,8 @@ public class Board {
     private final String[][] matrix;
     private int moveCount;
 
-    public boolen isFull(){
-        return moveCount >=size + size;
+    public boolean isFull(){
+        return moveCount >=size * size;
     }
 
     public Board(int size) {
@@ -42,14 +42,15 @@ public class Board {
         return isValidPosition(x,y) && matrix[x][y].isEmpty();
     }
 
-    public boolean isValidSymbol(String symbol){
+    public static boolean isValidSymbol(String symbol){
             return PlayerSymbol.isValid(symbol);
     }
     
     public String getCell(int x, int y) {
         if (!isValidPosition(x,y)) {
-             return matrix[x][y];
+             return null;
         }
+        return matrix[x][y];
     }
 
     public int getSize() {
