@@ -17,6 +17,7 @@ public class TimerManager {
 
     public void start() {
         stop();
+        this.secondsLeft = seconds;
         timer = new Timer(true);
         timer.scheduleAtFixedRate(new TimerTask() {
             @Override
