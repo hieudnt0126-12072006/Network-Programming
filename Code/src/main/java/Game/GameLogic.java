@@ -28,18 +28,18 @@ public class GameLogic {
             }
 
             // Đạt từ 5 quân liên tiếp trở lên là thắng cuộc
-            if (count >= 5) {
+            if (count >= Rule.WIN_LENGTH) {
                 return true;
             }
         }
         return false;
     }
     public static boolean checkDraw(Board board){
-        reuturn board !=null && board.isFull();
+        return board !=null && board.isFull();
     }
 
-    public static GameResult checkGameResult(Board board,int lsatRow,int lastCol,String symbol){
-        if (board == null || !board.isVaidPosition(lastRow, lastCol) || !Board.isValidSymbol(symbol) || !symbol.equals(board.getCell(lastRow, lastCol))){
+    public static GameResult checkGameResult(Board board,int lastRow,int lastCol,String symbol){
+        if (board == null || !board.isValidPosition(lastRow, lastCol) || !Board.isValidSymbol(symbol) || !symbol.equals(board.getCell(lastRow, lastCol))){
         return GameResult.INVALID_MOVE;
         }
         if (checkWin(board, lastRow, lastCol, symbol)){
