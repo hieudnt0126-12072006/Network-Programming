@@ -41,7 +41,7 @@ MÃ DỰ ÁN: UDM_17
 + Giai đoạn 4 (Tuần 7 - Tuần 8): 
 -	Cài đặt thuật toán kiểm tra thắng/thua/hòa (quét 5 ô liên tiếp theo hàng ngang, dọc, chéo) chạy trên Server để đảm bảo tính chính xác.
 -	Xử lý các trường hợp mất kết nối đột ngột (đứt mạng, tắt app ngang xương). Xử thua người mất kết nối.
--	Lưu lịch sử trận đấu vào SQL (tính năng nâng cao).
+-	Lưu lịch sử trận đấu vào SQL (tính năng nâng cao)..
 -	Kiểm thử chéo giữa các máy qua mạng LAN, sửa lỗi (Bug).
 - 4.Thông tin thành viên
 -	Họ và tên: Đào Nguyễn Thiện Hiếu
