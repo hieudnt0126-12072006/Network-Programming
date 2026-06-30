@@ -1,6 +1,6 @@
 package Game;
 
-public enum PlayerSymnol {
+public enum PlayerSymbol {
   X("X"), O("O");
   private final String value;
   PlayerSymbol(String value){this.value = value;}
